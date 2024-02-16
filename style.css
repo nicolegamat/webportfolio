@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	font-family: Afacad;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#landing{
+	background-image: url(img-8.jpg);
+	height:750px;
+	background-position: center;
+
+}
+#nav {
+
+	background-color:rgb(77, 77, 77, 0.3);
+	position: fixed;
+}
+
+#projects{
+	background-image: url(img-4.jpg);
+	background-position: center center;
+	background-repeat: no repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.card {
+	background-color:rgb(77, 77, 77, 0.3) ;
+
+}
+.card .img-fit{
+	aspect-ratio: 12/9;
+	height: 100%;
+
+}
+.card img:hover{
+	transform: scale(1.05);
+	transition: .3s ease-in-out;
+	
+}
+	
+@media (max-width: 767.98px){
+    .card .img-fit{
+        aspect-ratio: 1.45/1;
+    }
+}
+
+
+#contact{
+	background-image: url(img-6.jpg);
+	background-position: center center;
+	background-repeat: no repeat;
+	background-size: cover;
+
+}
+
+#project-one img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#project-one img:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+
+}
+
+#project-two img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#project-two img:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+#project-three img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#project-three img:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+#who{
+	font-family: Pacifico;
+}
+
+#where{
+	font-family: Pacifico;
+}
+
+#icons a{
+	color: white;
+	text-decoration: none;
+}
+
+#icons a:hover{
+	color: lightskyblue;
+}
+
+#icons {
+	text-align: center;
+}
+
+#top {
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+#top:hover{
+	color: black;
+}
+
+
